@@ -1,0 +1,21 @@
+{
+  "name": "mosso3-cli",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "mosso3-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1"
+  }
+}
