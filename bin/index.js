@@ -10,6 +10,7 @@ const fs = require("fs");
 const spinner = ora(chalk.yellow("Downloading template ..."));
 
 const Version = "1.0.2";
+console.log(Version);
 
 // 修改项目package.json
 function setPackage(projectName, answers) {
